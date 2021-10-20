@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4ae728401a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="" style=" margin-top: 70px; background-color:grey ;margin-left: 515px; margin-right: 579px;">
+    <h1 class="" style="font-family:monospace; text-align: center;">CALCULATOR</h1>
+    <input type="text" style="width: 150px;" id="num" placeholder="" class="ms-2">
+    <button  class="" onclick="clearBox()" style="width: 50px;">C</button>
+    <button  class=""style="width: 50px;">AC</button>
+    <div class="ms-2">
+    <div>
+        <button class="mt-1" onclick="displayValue(7)" id="seven" style="width: 65px;" >7</button>
+        <button class="mt-1" onclick="displayValue(8)" id="eight" style="width: 65px;">8</button>
+        <button class="mt-1"onclick="displayValue(9)" id="nine"  style="width: 65px;">9</button>
+        <button  class="mt-1" onclick="displayValue('+')" id="" style="width: 50px;">+</button>
+    </div>
+    <div >
+        <button class="mt-1" onclick="displayValue(4)" id="four" style="width: 65px;">4</button>
+        <button class="mt-1" onclick="displayValue(5)" id="five" style="width: 65px;">5</button>
+        <button class="mt-1" onclick="displayValue(6)" id="six" style="width: 65px;">6</button>
+        <button  class="mt-1" onclick="displayValue('-')" id="" style="width: 50px;">-</button>
+
+    </div>
+    <div >
+        <button class="mt-1" onclick="displayValue(1)" id="one" style="width: 65px;">1</button>
+        <button class="mt-1" onclick="displayValue(2)" id="two" style="width: 65px;">2</button>
+        <button class="mt-1" onclick="displayValue(3)" id="three" style="width: 65px;">3</button>
+        <button  class="mt-1" onclick="displayValue('*')" id="" style="width: 50px;">*</button>
+    </div>
+    <div >
+        <button class="mt-1" onclick="displayValue(0)" id="zero" style="width: 65px;">0</button>
+        <button class="mt-1" onclick="displayValue('.')" id="" style="width: 65px;">.</button>
+        <button class="mt-1" onclick="displayValue('/')" id="" style="width: 65px;">/</button>
+        <button  class="btn btn-danger" onclick="evaluateExpression()" style="width: 50px;">=</button>
+    </div>
+
+
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+<script src="./script.js" defer></script>
+</html>
