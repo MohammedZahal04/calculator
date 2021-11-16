@@ -10,51 +10,48 @@
 
 </head>
 <body>
-    <div class="" style=" margin-top: 70px; background-color:grey ;margin-left: 515px; margin-right: 579px;">
-    <h1 class="" style="font-family:monospace; text-align: center;">CALCULATOR</h1>
-    <input type="text" style="width: 150px;" id="num" placeholder="" class="ms-2">
-    <button  class="" onclick="clearBox()" style="width: 50px;">C</button>
-    <button  class=""style="width: 50px;">AC</button>
-    <div class="ms-2">
-    <div>
-        <button class="mt-1" onclick="displayValue(7)" id="seven" style="width: 65px;" >7</button>
-        <button class="mt-1" onclick="displayValue(8)" id="eight" style="width: 65px;">8</button>
-        <button class="mt-1"onclick="displayValue(9)" id="nine"  style="width: 65px;">9</button>
-        <button  class="mt-1" onclick="displayValue('+')" id="" style="width: 50px;">+</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4" style="width: fit-content;">
+                <div class="" style=" margin-top: 70px; background-color:grey ; width: fit-content;">
+                    <h1 class="" style="font-family:monospace; text-align: center;">CALCULATOR</h1>
+                    <input type="text" style="width: 150px;" id="num" placeholder="" class="ms-2">
+                    <button  class="" onclick="clearBox()" style="width: 50px;">C</button>
+                    <button  class=""style="width: 50px;">AC</button>
+                    <div class="ms-2">
+                    <div>
+                        <button class="mt-1" onclick="displayValue(7)" id="seven" style="width: 65px;" >7</button>
+                        <button class="mt-1" onclick="displayValue(8)" id="eight" style="width: 65px;">8</button>
+                        <button class="mt-1"onclick="displayValue(9)" id="nine"  style="width: 65px;">9</button>
+                        <button  class="mt-1" onclick="displayValue('+')" id="" style="width: 50px;">+</button>
+                    </div>
+                    <div >
+                        <button class="mt-1" onclick="displayValue(4)" id="four" style="width: 65px;">4</button>
+                        <button class="mt-1" onclick="displayValue(5)" id="five" style="width: 65px;">5</button>
+                        <button class="mt-1" onclick="displayValue(6)" id="six" style="width: 65px;">6</button>
+                        <button  class="mt-1" onclick="displayValue('-')" id="" style="width: 50px;">-</button>
+                
+                    </div>
+                    <div >
+                        <button class="mt-1" onclick="displayValue(1)" id="one" style="width: 65px;">1</button>
+                        <button class="mt-1" onclick="displayValue(2)" id="two" style="width: 65px;">2</button>
+                        <button class="mt-1" onclick="displayValue(3)" id="three" style="width: 65px;">3</button>
+                        <button  class="mt-1" onclick="displayValue('*')" id="" style="width: 50px;">*</button>
+                    </div>
+                    <div >
+                        <button class="mt-1" onclick="displayValue(0)" id="zero" style="width: 65px;">0</button>
+                        <button class="mt-1" onclick="displayValue('.')" id="" style="width: 65px;">.</button>
+                        <button class="mt-1" onclick="displayValue('/')" id="" style="width: 65px;">/</button>
+                        <button  class="btn btn-danger" onclick="evaluateExpression()" style="width: 50px;">=</button>
+                    </div>
+                
+                
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
     </div>
-    <div >
-        <button class="mt-1" onclick="displayValue(4)" id="four" style="width: 65px;">4</button>
-        <button class="mt-1" onclick="displayValue(5)" id="five" style="width: 65px;">5</button>
-        <button class="mt-1" onclick="displayValue(6)" id="six" style="width: 65px;">6</button>
-        <button  class="mt-1" onclick="displayValue('-')" id="" style="width: 50px;">-</button>
-
-    </div>
-    <div >
-        <button class="mt-1" onclick="displayValue(1)" id="one" style="width: 65px;">1</button>
-        <button class="mt-1" onclick="displayValue(2)" id="two" style="width: 65px;">2</button>
-        <button class="mt-1" onclick="displayValue(3)" id="three" style="width: 65px;">3</button>
-        <button  class="mt-1" onclick="displayValue('*')" id="" style="width: 50px;">*</button>
-    </div>
-    <div >
-        <button class="mt-1" onclick="displayValue(0)" id="zero" style="width: 65px;">0</button>
-        <button class="mt-1" onclick="displayValue('.')" id="" style="width: 65px;">.</button>
-        <button class="mt-1" onclick="displayValue('/')" id="" style="width: 65px;">/</button>
-        <button  class="btn btn-danger" onclick="evaluateExpression()" style="width: 50px;">=</button>
-    </div>
-
-
-</div>
-    
-
-
-
-
-
-
-
-
-
-
 </div>
 </body>
 <script src="./script.js" defer></script>
